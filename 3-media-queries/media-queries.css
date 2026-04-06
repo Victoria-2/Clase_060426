@@ -1,0 +1,59 @@
+body {
+  min-height: 88dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+}
+
+.box {
+  background-color: lightseagreen;
+}
+
+.grid-container {
+  display: grid;
+  grid-auto-columns: 200px 100px; /*si ponemos auto, se ajusta al texto*/
+  grid-auto-rows: 200px 160px; /*1fr es la otra opcion*/
+  gap: 8px;
+
+  grid-template-areas:
+    "box-1 box-2 box-2 box-3"
+    "box-1 box-4 box-5 box-5";
+
+  /*
+    grid-template-areas:
+      "box-1 box-1 box-2"
+      "box-1 box-1 box-3"
+      "box-4 box-5 box-5";
+    */
+
+  /*
+    grid-template-areas:
+      "box-1 box-2"
+      "box-3 box-2"
+      "box-3 box-4"
+      "box-5 box-4";
+    */
+
+  /* nota: no hacer formas tipo tetris:
+    "box-1 box-1 box-2"
+    "box-1 box-4 box-3"; (ESTO NO! SIEMPRE CUADRADOS!)
+    */
+}
+
+/*NOTA: se puede utilizar min-width o max-width*/
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
