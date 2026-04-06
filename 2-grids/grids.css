@@ -4,7 +4,7 @@ grid-template-rows: 150px 150px 150px; */
 
 /* grid-template-columns y grid-template-rows */
 
-.grid-container {
+.container {
   height: 800px;
   display: grid;
   gap: 12px;

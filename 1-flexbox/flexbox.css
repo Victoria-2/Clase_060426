@@ -1,9 +1,25 @@
 /* 
-display - Must be set to flex or inline-flex
-flex-direction - Sets the display-direction of flex items
-flex-wrap - Specifies whether the flex items should wrap or not
-flex-flow - Shorthand property for flex-direction and flex-wrap
-justify-content - Aligns the flex items when they do not use all available space on the main-axis (horizontally)
-align-items - Aligns the flex items when they do not use all available space on the cross-axis (vertically) (cada uno)
-align-content - Aligns the flex lines when there is extra space in the cross axis and flex items wrap (en general cuando sobra espacio)
- */
+1- display - flex
+flex-direction - row, row-reverse, column, column-reverse
+flex-wrap - nowrap, wrap
+flex-flow - flex-direction y flex-wrap en una línea
+*/
+
+.container {
+}
+
+.box {
+  background-color: aquamarine;
+  font-size: 48px;
+  font-family: "Courier New", Courier, monospace;
+
+  height: 100px;
+  width: 100px;
+}
+
+/* justify-content - EJE X -  center, flex-start (default), flex-end, space-around, space-between, space-evenly*/
+
+/* align-items - EJE Y -  normal (default), stretch, center, flex-start, flex-end, baseline */
+
+/* align-content - Cómo alinear los elementos cuando hay más de una línea - 
+                 - stretch (default), center, flex-start, lex-end, space-between, space-around, space-evenly */
