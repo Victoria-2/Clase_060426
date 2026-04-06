@@ -1,0 +1,25 @@
+/* display: grid;
+grid-template-columns: 150px 150px 150px;
+grid-template-rows: 150px 150px 150px; */
+
+/* grid-template-columns y grid-template-rows */
+
+.grid-container {
+  height: 800px;
+  display: grid;
+  gap: 12px;
+  justify-items: center;
+  align-items: center;
+}
+
+.box {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-family: "Courier New", Courier, monospace;
+
+  height: 100px;
+  width: 100px;
+}
