@@ -5,7 +5,23 @@ flex-wrap - nowrap, wrap
 flex-flow - flex-direction y flex-wrap en una línea
 */
 
+body {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+}
+
 .container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 12px;
+
+  justify-content: center;
+  align-items: center;
+  align-content: flex-end;
+
+  height: 500px;
+  width: 500px;
 }
 
 .box {
@@ -23,3 +39,34 @@ flex-flow - flex-direction y flex-wrap en una línea
 
 /* align-content - Cómo alinear los elementos cuando hay más de una línea - 
                  - stretch (default), center, flex-start, lex-end, space-between, space-around, space-evenly */
+
+/* CARD */
+.contenedor-card {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 100px;
+  border-radius: 100%;
+}
+
+.card {
+  display: flex;
+  height: 240px;
+  width: 180px;
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card-izquierda {
+  justify-content: flex-start;
+}
+
+.card-derecha {
+  align-items: flex-end;
+}
