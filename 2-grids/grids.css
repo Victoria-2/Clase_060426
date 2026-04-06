@@ -1,6 +1,7 @@
 /* display: grid;*/
-/*Parte 1: grid-template-columns y grid-template-rows*/
+/* Parte 1: grid-template-columns y grid-template-rows*/
 /* Parte 2: grid-auto-columns y grid-auto-rows */
+/* Parte 3: grid-template-areas */
 
 .container {
   height: 800px;
