@@ -60,3 +60,13 @@ body {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /* @media only screen and (min-width: 1200px) {...} */
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-areas:
+      "box-1 box-2"
+      "box-3 box-2"
+      "box-3 box-4"
+      "box-5 box-4";
+  }
+}
