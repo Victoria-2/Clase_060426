@@ -5,10 +5,16 @@
 
 .container {
   height: 800px;
-  display: grid;
   gap: 12px;
-  justify-items: center;
+
+  display: grid;
+  grid-auto-columns: 200px 100px;
+  grid-auto-rows: 200px 50px;
+
+  justify-content: center;
   align-items: center;
+
+  grid-template-areas: "box-9 box-3 box-3 box-1";
 }
 
 .box {
@@ -18,7 +24,4 @@
   align-items: center;
   font-size: 48px;
   font-family: "Courier New", Courier, monospace;
-
-  height: 100px;
-  width: 100px;
 }
